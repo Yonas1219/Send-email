@@ -8,13 +8,13 @@ const sendEmailEthereal = async (req, res) => {
     host: 'smtp.ethereal.email',
     port: 587,
     auth: {
-      user: 'marlene.legros@ethereal.email',
+      user: 'alem.rade@chekol.email',
       pass: 'va4q5BKKtry7aq58Gv',
     },
   });
 
   let info = await transporter.sendMail({
-    from: '"Coding Addict" <codingaddict@gmail.com>',
+    from: '"me " <me@gmail.com>',
     to: 'bar@example.com',
     subject: 'Hello',
     html: '<h2>Sending Emails with Node.js</h2>',
